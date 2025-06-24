@@ -1,0 +1,8 @@
+# --- runtime ---
+mlcroissant>=0.2.2
+rdflib>=7.0.0
+pandas>=2.2.2
+pyarrow>=15.0.0
+
+# --- dev / testing ---
+pytest>=8.0.0

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["pdm-backend>=2.0"]
+build-backend = "pdm.backend"
+
+[project]
+name = "opentargets-croissant-tools"
+version = "0.1.0"
+description = "Programmatic introspection of Open Targets Croissant datasets"
+authors = [{name = "Peter", email = "peter@example.com"}]
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = [
+    "mlcroissant>=0.2.2",
+    "rdflib>=7.0.0",
+    "pandas>=2.2.2",
+    "pyarrow>=15.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
